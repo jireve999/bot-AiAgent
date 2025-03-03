@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志和调试文件
+*.log
+logs/
+
+# 本地开发文件
+.local/
+*.local
+
+# 测试覆盖率
+.coverage
+htmlcov/
+
+# 包相关
+dist/
+build/
+
+# 大文件
+*.pdf
+*.csv
+*.zip
+*.tar.gz
+
+# AI模型文件
+*.pkl
+*.h5
+*.pt
+
+# 数据库文件
+*.db
+*.sqlite
+
+# Docker
+docker-compose.override.yml
+
+# 前端相关（如有）
+node_modules/
+public/build/
